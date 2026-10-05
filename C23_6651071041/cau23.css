@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse; /* Gộp viền bảng */
+    border: 3px solid #000080; /* Viền ngoài cùng màu xanh đen đậm */
+    background-color: #ffcc99; /* Nền màu cam nhạt giống mẫu */
+    width: 320px;
+    margin: 20px;
+}
+
+td {
+    border: 1px solid #000080; /* Viền các ô bên trong */
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.label {
+    font-weight: bold;
+    width: 120px;
+}
+
+input {
+    width: 150px;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.btn-row {
+    text-align: center; /* Căn giữa nút bấm */
+}
+
+button {
+    font-family: Arial, sans-serif;
+    color: #0055cc; /* Chữ màu xanh */
+    font-weight: bold;
+    background-color: #e6f0ff;
+    border: 2px solid #99badd;
+    border-radius: 15px; /* Bo tròn góc nút bấm */
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cce0ff;
+}
+
+#ketQua {
+    font-weight: bold;
+}

@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 450px;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main-table {
+    background-color: #ccff33; /* Màu nền xanh nõn chuối */
+    border: 3px solid #0000ff;
+}
+
+.main-table th, .main-table td {
+    border: 1px solid #0000ff;
+    padding: 5px;
+}
+
+.title {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.header-row th {
+    color: #0000ff; /* Chữ màu xanh dương */
+    font-size: 18px;
+}
+
+/* Ẩn viền của thẻ select để trông giống list bình thường */
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    overflow-y: hidden;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.select-col {
+    background-color: #fff; /* Nền trắng cho khu vực chọn món */
+    vertical-align: top;
+}
+
+.radio-col {
+    vertical-align: middle;
+    padding-left: 15px !important;
+}
+
+.btn-row {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    border: 1px solid #999;
+    padding: 3px 15px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Bảng Kết Quả */
+.result-table {
+    border: 3px solid #0000ff;
+    border-top: none; /* Bỏ viền trên để dính vào bảng trên */
+    background-color: #ccffff; /* Nền xanh lơ nhạt */
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #0000ff;
+    padding: 5px;
+}
+
+.result-header th {
+    color: #0000ff;
+    font-size: 18px;
+}
+
+.col-left {
+    color: #008000; /* Chữ tổng tiền màu xanh lá */
+    font-weight: bold;
+}
+
+.col-right {
+    font-weight: bold;
+}

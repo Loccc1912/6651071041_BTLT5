@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 25 - Tính Tiền Thực Đơn</title>
+    <link rel="stylesheet" href="cau25.css">
+</head>
+<body>
+
+    <div class="container">
+        <table class="main-table">
+            <tr>
+                <th colspan="3" class="title">THỰC ĐƠN</th>
+            </tr>
+            <tr class="header-row">
+                <th>Thức ăn</th>
+                <th>Nước uống</th>
+                <th>Thời điểm</th>
+            </tr>
+            <tr>
+                <td class="select-col">
+                    <select id="thucAn" multiple size="7">
+                        <option value="Bún bò">Bún bò</option>
+                        <option value="Hủ tiếu">Hủ tiếu</option>
+                        <option value="Bánh canh">Bánh canh</option>
+                        <option value="Phở bò">Phở bò</option>
+                        <option value="Nuôi">Nuôi</option>
+                        <option value="Bánh mì thịt">Bánh mì thịt</option>
+                        <option value="Bánh cuốn">Bánh cuốn</option>
+                    </select>
+                </td>
+                <td class="select-col">
+                    <select id="nuocUong" multiple size="7">
+                        <option value="Cà phê đá">Cà phê đá</option>
+                        <option value="Cà phê sữa">Cà phê sữa đá</option>
+                        <option value="Chanh dây">Chanh dây</option>
+                        <option value="Chanh muối">Chanh muối</option>
+                        <option value="Xí muội">Xí muội</option>
+                        <option value="Sữa tươi">Sữa tươi</option>
+                        <option value="Cam vắt">Cam vắt</option>
+                    </select>
+                </td>
+                <td class="radio-col">
+                    <label><input type="radio" name="thoiDiem" id="banNgay" value="ngay" checked> Ban ngày</label><br><br>
+                    <label><input type="radio" name="thoiDiem" id="banDem" value="dem"> Ban đêm</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="btn-row">
+                    <button type="button" onclick="tinhTien()">Tính tiền</button>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Bảng hiển thị kết quả (Ban đầu ẩn, sau khi tính tiền sẽ hiện bằng JS) -->
+        <table id="resultTable" class="result-table" style="display: none;">
+            <thead>
+                <tr class="result-header">
+                    <th>Các món đã dùng</th>
+                    <th>Tiền</th>
+                </tr>
+            </thead>
+            <tbody id="resultBody">
+                <!-- Các món được chọn sẽ chèn vào đây -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="col-left">Tổng tiền</td>
+                    <td id="tongTien" class="col-right"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="cau25.js"></script>
+</body>
+</html>

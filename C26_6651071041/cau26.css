@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.can-chi-table {
+    border: 2px solid #66e0c2; /* Viền ngoài màu xanh ngọc */
+    border-collapse: collapse;
+    width: 480px;
+    margin: 20px;
+}
+
+.title {
+    background-color: #ffffcc; /* Nền vàng nhạt */
+    color: #000;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.labels td {
+    background-color: #ccffff; /* Nền xanh lơ nhạt */
+    padding-top: 15px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.inputs td {
+    background-color: #ccffff;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-cell {
+    text-align: center;
+    vertical-align: top;
+}
+
+input {
+    width: 140px;
+    padding: 3px;
+    font-size: 16px;
+    border: 1px solid #a9a9a9;
+}
+
+/* Làm xám ô kết quả để báo hiệu đây là ô chỉ đọc */
+#canChi {
+    background-color: #f0f0f0; 
+}
+
+button {
+    border-radius: 12px;
+    border: 1px solid #888;
+    padding: 2px 15px;
+    cursor: pointer;
+    background-color: #efefef;
+    font-weight: bold;
+    color: #555;
+}
+
+button:hover {
+    background-color: #ddd;
+}

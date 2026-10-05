@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: #e6ffcc; /* Màu nền xanh lá nhạt giống mẫu */
+}
+
+th, td {
+    border: 2px solid #b3e6b3; /* Viền bảng màu xanh ngọc nhạt */
+    padding: 3px;
+}
+
+th {
+    font-size: 20px;
+    padding: 8px 15px;
+}
+
+input {
+    width: 140px;
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 1px solid #999;
+}
+
+.func-col {
+    text-align: center; /* Căn giữa nút Xóa */
+    padding: 0 10px;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 12px; /* Bo tròn nút bấm */
+    border: 1px solid #888;
+    padding: 3px 15px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #dcdcdc;
+}

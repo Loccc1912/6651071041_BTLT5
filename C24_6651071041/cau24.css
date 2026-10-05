@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse; /* Gộp viền bảng */
+    border: 3px solid #000080; /* Viền ngoài cùng màu xanh đen */
+    background-color: #ffcccc; /* Nền màu hồng nhạt */
+    margin: 20px;
+}
+
+td {
+    border: 1px solid #000080; /* Viền các ô bên trong */
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+/* Chỉnh kích thước các ô input cho nhỏ lại giống mẫu */
+#ngay { width: 50px; }
+#thang { width: 40px; }
+#nam { width: 60px; }
+
+input {
+    font-size: 16px;
+    padding: 2px;
+}
+
+.btn-row, .result-row {
+    text-align: center; /* Căn giữa nút bấm và kết quả */
+}
+
+button {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    border: 1px solid #999;
+    border-radius: 12px; /* Bo tròn góc nút bấm */
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.result-row {
+    height: 30px; /* Tạo khoảng trống nếu chưa có kết quả */
+}

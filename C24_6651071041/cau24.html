@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 24 - Xuất Thứ Trong Tuần</title>
+    <!-- Liên kết đến file CSS -->
+    <link rel="stylesheet" href="cau24.css">
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>Ngày <input type="number" id="ngay" value="12"></td>
+            <td>Tháng Select: <input type="number" id="thang" value="1" min="1" max="12"></td>
+            <td>năm <input type="number" id="nam" value="2015"></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="btn-row">
+                <button type="button" onclick="xuatThu()">Xuất thứ</button>
+            </td>
+        </tr>
+        <tr>
+            <!-- Nơi hiển thị kết quả -->
+            <td colspan="3" id="ketQua" class="result-row"></td>
+        </tr>
+    </table>
+
+    <!-- Liên kết đến file JavaScript -->
+    <script src="cau24.js"></script>
+</body>
+</html>

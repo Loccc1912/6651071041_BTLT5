@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 23 - Tính Tiền Lương</title>
+    <!-- Liên kết đến file CSS -->
+    <link rel="stylesheet" href="cau23.css">
+</head>
+<body>
+
+    <form>
+        <table>
+            <tr>
+                <td class="label">Lương</td>
+                <td><input type="number" id="luong" value="1000000"></td>
+            </tr>
+            <tr>
+                <td class="label">Hệ số lương</td>
+                <td><input type="number" id="heSo" step="0.1" value="3.2"></td>
+            </tr>
+            <tr>
+                <!-- Nút bấm gộp 2 cột và căn giữa -->
+                <td colspan="2" class="btn-row">
+                    <button type="button" onclick="tinhLuong()">Tính lương tháng</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Lương tháng</td>
+                <!-- Nơi hiển thị kết quả -->
+                <td id="ketQua"></td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Liên kết đến file JavaScript -->
+    <script src="cau23.js"></script>
+</body>
+</html>

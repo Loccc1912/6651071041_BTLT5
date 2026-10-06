@@ -1,0 +1,16 @@
+/* Định dạng giao diện ban đầu */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#text {
+  font-size: 16px;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

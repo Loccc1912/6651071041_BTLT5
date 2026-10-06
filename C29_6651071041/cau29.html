@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>Lấy họ và tên từ Form</title>
+  <!-- Liên kết đến file cau29.css -->
+  <link rel="stylesheet" href="cau29.css" />
+</head>
+<body>
+  <form id="form1" onsubmit="getFormvalue(event)">
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname" value="David" /><br /><br />
+
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname" value="Beckham" /><br /><br />
+
+    <input type="submit" value="Submit" />
+  </form>
+
+  <p id="result"></p>
+
+  <!-- Liên kết đến file cau29.js -->
+  <script src="cau29.js"></script>
+</body>
+</html>
